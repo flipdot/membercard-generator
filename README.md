@@ -36,3 +36,7 @@ pnpm run preview
 ## Deployment
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Credit
+
+The core membercard generator was written by [@azolus](https://github.com/azolus) 💛🖤
