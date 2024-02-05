@@ -1,0 +1,6 @@
+{
+  "globalSeoOgImageAlt": "Open Graph image",
+  "nuxtSiteConfig": {
+    "description": "Generate a member card as PDF."
+  }
+}

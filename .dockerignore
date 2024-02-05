@@ -1,0 +1,7 @@
+.git/
+node_modules/
+src/.nuxt/
+src/.output/
+src/dist/
+src/node_modules/
+src/.eslintcache
