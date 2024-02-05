@@ -1,63 +1,38 @@
-# Nuxt 3 Minimal Starter
+# 🪪 flipdot Membercard Generator
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Get your flipdot membercard now! 🔥
 
-## Setup
+It includes your member code so that you can buy drinks the cool way 😎
+And it shows the flipdot's Payback code so all your thrift shopping makes the next barbecue happen! 🤘
+
+## Usage
+
+1. Put in your username into this form:
+
+    ![Input form](./docs/images/input.png)
+
+2. Get your membercard as PDF:
+
+    ![Output PDF](./docs/images/output.png)
+
+## Development
 
 Make sure to install the dependencies:
 
 ```bash
-# npm
-npm install
-
-# pnpm
+# install the dependencies
 pnpm install
 
-# yarn
-yarn install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
+# start the development server
 pnpm run dev
 
-# yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
+# build for production
 pnpm run build
 
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
+# locally preview production build
 pnpm run preview
-
-# yarn
-yarn preview
 ```
+
+## Deployment
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
