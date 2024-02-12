@@ -203,7 +203,7 @@ ENV NODE_ENV=production
 
 # Update dependencies.
 RUN apt update \
-    && apt upgrade \
+    && apt upgrade -y \
     && apt clean \
     && rm -rf /var/lib/apt/lists/*
 
