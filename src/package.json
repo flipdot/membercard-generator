@@ -33,7 +33,7 @@
     "ufo": "1.4.0",
     "vue": "3.4.21",
     "vue-router": "4.3.0",
-    "vue-tsc": "2.0.2"
+    "vue-tsc": "2.0.3"
   },
   "engines": {
     "node": "20"
