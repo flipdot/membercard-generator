@@ -23,7 +23,7 @@
     "eslint-plugin-yml": "1.13.1",
     "jsbarcode": "3.11.6",
     "jspdf": "2.5.1",
-    "nuxt": "3.11.0",
+    "nuxt": "3.11.1",
     "prettier-plugin-tailwindcss": "0.5.12",
     "stylelint": "16.2.1",
     "stylelint-config-recommended-vue": "1.5.0",
