@@ -1,3 +1,10 @@
+## [0.0.4](https://github.com/flipdot/membercard-generator/compare/0.0.3...0.0.4) (2024-03-29)
+
+
+### Bug Fixes
+
+* schedule release ([8fe0d4e](https://github.com/flipdot/membercard-generator/commit/8fe0d4e8de3756260420551fb6a8911fd5012d39))
+
 ## [0.0.3](https://github.com/flipdot/membercard-generator/compare/0.0.2...0.0.3) (2024-03-15)
 
 
