@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs'
 
 import { jsPDF as JsPDF } from 'jspdf'
-import Symbology from 'symbology' // eslint-disable-line import/default
+import Symbology from 'symbology'
 import SymbologyType from 'symbology/dist/types/enums/SymbologyType'
 
 const { createStream, EncodingMode, OutputType } = Symbology
