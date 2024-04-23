@@ -18,7 +18,7 @@
     "jspdf": "2.5.1",
     "nuxt": "3.11.2",
     "prettier-plugin-tailwindcss": "0.5.14",
-    "stylelint": "16.3.1",
+    "stylelint": "16.4.0",
     "stylelint-config-recommended-vue": "1.5.0",
     "stylelint-config-standard": "36.0.0",
     "symbology": "4.0.1",
