@@ -49,7 +49,7 @@ RUN pnpm install --offline
 FROM prepare AS build-node
 
 ENV NODE_ENV=production
-RUN pnpm run build:node
+RUN pnpm --dir src run build:node
 
 
 # ########################
@@ -61,7 +61,7 @@ RUN pnpm run build:node
 # ENV SITE_URL=${SITE_URL}
 
 # ENV NODE_ENV=production
-# RUN pnpm run build:static
+# RUN pnpm --dir src run build:static
 
 
 ########################
@@ -135,7 +135,7 @@ RUN pnpm -r run lint
 
 # ENV NODE_ENV=development
 
-# RUN pnpm run test:e2e:server:dev
+# RUN pnpm --dir tests run test:e2e:server:dev
 
 
 # ########################
@@ -145,7 +145,7 @@ RUN pnpm -r run lint
 
 # COPY --from=build-node /srv/app/src/.output ./src/.output
 
-# RUN pnpm run test:e2e:server:node
+# RUN pnpm --dir tests run test:e2e:server:node
 
 
 # ########################
@@ -155,7 +155,7 @@ RUN pnpm -r run lint
 
 # COPY --from=build-static /srv/app/src/.output/public ./src/.output/public
 
-# RUN pnpm run test:e2e:server:static
+# RUN pnpm --dir tests run test:e2e:server:static
 
 
 #######################
