@@ -23,10 +23,7 @@
   "css.validate": false,
   "eslint.workingDirectories": [
     {
-      "directory": "./src/"
-    },
-    {
-      "directory": "./tests/"
+      "directory": "src"
     }
   ],
   "shellcheck.customArgs": ["-x"],
