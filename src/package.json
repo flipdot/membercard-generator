@@ -7,8 +7,8 @@
   "description": "Generate a member card as PDF 🪪",
   "devDependencies": {
     "@dargmuesli/nuxt-vio": "14.0.0",
-    "@nuxt/devtools": "1.4.2",
-    "@nuxtjs/i18n": "8.5.3",
+    "@nuxt/devtools": "1.5.0",
+    "@nuxtjs/i18n": "8.5.4",
     "@types/node": "20.16.5",
     "@vuelidate/core": "2.0.3",
     "@vuelidate/validators": "2.0.4",
@@ -24,7 +24,7 @@
     "symbology": "4.0.1",
     "tailwindcss": "3.4.12",
     "ufo": "1.5.4",
-    "vue": "3.5.6",
+    "vue": "3.5.7",
     "vue-router": "4.4.5",
     "vue-tsc": "2.1.6"
   },
