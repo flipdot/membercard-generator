@@ -16,7 +16,7 @@
     "defu": "6.1.4",
     "jsbarcode": "3.11.6",
     "jspdf": "2.5.2",
-    "nuxt": "3.13.2",
+    "nuxt": "3.14.0",
     "prettier-plugin-tailwindcss": "0.6.8",
     "stylelint": "16.10.0",
     "stylelint-config-recommended-vue": "1.5.0",
