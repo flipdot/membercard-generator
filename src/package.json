@@ -50,5 +50,5 @@
     "start:static": "serve .output/public"
   },
   "type": "module",
-  "version": "0.0.21"
+  "version": "0.0.22"
 }
