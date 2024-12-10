@@ -8,7 +8,12 @@ ENV CI=true
 
 WORKDIR /srv/app/
 
-RUN corepack enable
+RUN corepack enable \
+  && apt-get update \
+  && apt-get install --no-install-recommends -y \
+      mkcert \
+  && apt-get clean \
+  && rm -rf /var/lib/apt/lists/*
 
 
 #############
@@ -91,7 +96,8 @@ RUN pnpm -r run lint
 
 # WORKDIR /srv/app/
 
-# RUN corepack enable
+# RUN corepack enable \
+#   && apt update && apt install mkcert
 
 
 # ########################
