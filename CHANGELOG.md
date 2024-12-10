@@ -1,3 +1,9 @@
+## [0.0.23](https://github.com/flipdot/membercard-generator/compare/0.0.22...0.0.23) (2024-12-10)
+
+### Bug Fixes
+
+* **deps:** add pinia ([11ffb6b](https://github.com/flipdot/membercard-generator/commit/11ffb6b01c9d781a1081075758c74a386a7a32c0))
+
 ## [0.0.22](https://github.com/flipdot/membercard-generator/compare/0.0.21...0.0.22) (2024-11-29)
 
 ### Bug Fixes
