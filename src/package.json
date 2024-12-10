@@ -9,7 +9,7 @@
     "@dargmuesli/nuxt-vio": "15.0.1",
     "@nuxt/devtools": "1.6.3",
     "@nuxtjs/i18n": "9.1.1",
-    "@types/node": "20.17.9",
+    "@types/node": "22.10.1",
     "@vuelidate/core": "2.0.3",
     "@vuelidate/validators": "2.0.4",
     "canvas": "2.11.2",
@@ -30,7 +30,7 @@
     "vue-tsc": "2.1.10"
   },
   "engines": {
-    "node": "20"
+    "node": "22"
   },
   "name": "@flipdot/member-card-generator",
   "private": true,
