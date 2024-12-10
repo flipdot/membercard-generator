@@ -813,7 +813,7 @@ packages:
     resolution: {integrity: sha512-uJGrXbNBn0ppeLgxRKp4FhyKMI10eBKE8vOUkzy2sTFFtPVpNgavPkQVL8rspGQp5NnK96AVljbn/9K8ZTleuA==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
-      eslint: 9.14.0
+      eslint: ^8.0.0 || ^9.0.0-0
 
   '@intlify/h3@0.6.1':
     resolution: {integrity: sha512-hFMcqWXCoFNZkraa+JF7wzByGdE0vGi8rUs7CTFrE4hE3X2u9QcelH8VRO8mPgJDH+TgatzvrVp6iZsWVluk2A==}
