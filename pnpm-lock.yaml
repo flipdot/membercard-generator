@@ -52,7 +52,7 @@ importers:
     devDependencies:
       '@dargmuesli/nuxt-vio':
         specifier: 15.0.1
-        version: 15.0.1(@types/eslint@9.6.1)(@unhead/vue@1.11.14(vue@3.5.13(typescript@5.4.5)))(@vue/compiler-dom@3.5.13)(@vue/compiler-sfc@3.5.13)(h3@1.13.0)(ioredis@5.4.1)(magicast@0.3.5)(nuxt@3.14.1592(@parcel/watcher@2.5.0)(@types/node@20.17.10)(eslint@9.16.0(jiti@2.4.1))(ioredis@5.4.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.28.1)(stylelint@16.12.0(typescript@5.4.5))(terser@5.37.0)(typescript@5.4.5)(vite@5.4.11(@types/node@20.17.10)(terser@5.37.0))(vue-tsc@2.1.10(typescript@5.4.5)))(pinia@2.3.0(typescript@5.4.5)(vue@3.5.13(typescript@5.4.5)))(prettier@3.4.2)(rollup@4.28.1)(tailwindcss@3.4.16)(typescript@5.4.5)(unhead@1.11.14)(vite@5.4.11(@types/node@20.17.10)(terser@5.37.0))(vue-router@4.5.0(vue@3.5.13(typescript@5.4.5)))(vue@3.5.13(typescript@5.4.5))(webpack@5.97.1(esbuild@0.24.0))
+        version: 15.0.1(@types/eslint@9.6.1)(@unhead/vue@1.11.14(vue@3.5.13(typescript@5.4.5)))(@vue/compiler-dom@3.5.13)(@vue/compiler-sfc@3.5.13)(h3@1.13.0)(ioredis@5.4.1)(magicast@0.3.5)(nuxt@3.14.1592(@parcel/watcher@2.5.0)(@types/node@20.17.10)(eslint@9.16.0(jiti@2.4.1))(ioredis@5.4.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.28.1)(stylelint@16.12.0(typescript@5.4.5))(terser@5.37.0)(typescript@5.4.5)(vite@5.4.11(@types/node@20.17.10)(terser@5.37.0))(vue-tsc@2.1.10(typescript@5.4.5)))(pinia@2.3.0(typescript@5.4.5)(vue@3.5.13(typescript@5.4.5)))(prettier@3.4.2)(rollup@4.28.1)(tailwindcss@3.4.17)(typescript@5.4.5)(unhead@1.11.14)(vite@5.4.11(@types/node@20.17.10)(terser@5.37.0))(vue-router@4.5.0(vue@3.5.13(typescript@5.4.5)))(vue@3.5.13(typescript@5.4.5))(webpack@5.97.1(esbuild@0.24.0))
       '@nuxt/devtools':
         specifier: 1.6.4
         version: 1.6.4(rollup@4.28.1)(vite@5.4.11(@types/node@20.17.10)(terser@5.37.0))(vue@3.5.13(typescript@5.4.5))
@@ -102,8 +102,8 @@ importers:
         specifier: 4.0.1
         version: 4.0.1(@mapbox/node-pre-gyp@2.0.0-rc.0)
       tailwindcss:
-        specifier: 3.4.16
-        version: 3.4.16
+        specifier: 3.4.17
+        version: 3.4.17
       ufo:
         specifier: 1.5.4
         version: 1.5.4
@@ -5842,8 +5842,8 @@ packages:
     peerDependencies:
       tailwindcss: 1 || 2 || 2.0.1-compat || 3
 
-  tailwindcss@3.4.16:
-    resolution: {integrity: sha512-TI4Cyx7gDiZ6r44ewaJmt0o6BrMCT5aK5e0rmJ/G9Xq3w7CX/5VXl/zIPEJZFUK5VEqwByyhqNPycPlvcK4ZNw==}
+  tailwindcss@3.4.17:
+    resolution: {integrity: sha512-w33E2aCvSDP0tW9RZuNXadXlkHXqFzSkQew/aIa2i/Sj8fThxwovwlXHSPXTbAHwEIhBFXAedUhP2tueAKP8Og==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -6928,7 +6928,7 @@ snapshots:
       - supports-color
       - webpack
 
-  '@dargmuesli/nuxt-vio@15.0.1(@types/eslint@9.6.1)(@unhead/vue@1.11.14(vue@3.5.13(typescript@5.4.5)))(@vue/compiler-dom@3.5.13)(@vue/compiler-sfc@3.5.13)(h3@1.13.0)(ioredis@5.4.1)(magicast@0.3.5)(nuxt@3.14.1592(@parcel/watcher@2.5.0)(@types/node@20.17.10)(eslint@9.16.0(jiti@2.4.1))(ioredis@5.4.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.28.1)(stylelint@16.12.0(typescript@5.4.5))(terser@5.37.0)(typescript@5.4.5)(vite@5.4.11(@types/node@20.17.10)(terser@5.37.0))(vue-tsc@2.1.10(typescript@5.4.5)))(pinia@2.3.0(typescript@5.4.5)(vue@3.5.13(typescript@5.4.5)))(prettier@3.4.2)(rollup@4.28.1)(tailwindcss@3.4.16)(typescript@5.4.5)(unhead@1.11.14)(vite@5.4.11(@types/node@20.17.10)(terser@5.37.0))(vue-router@4.5.0(vue@3.5.13(typescript@5.4.5)))(vue@3.5.13(typescript@5.4.5))(webpack@5.97.1(esbuild@0.24.0))':
+  '@dargmuesli/nuxt-vio@15.0.1(@types/eslint@9.6.1)(@unhead/vue@1.11.14(vue@3.5.13(typescript@5.4.5)))(@vue/compiler-dom@3.5.13)(@vue/compiler-sfc@3.5.13)(h3@1.13.0)(ioredis@5.4.1)(magicast@0.3.5)(nuxt@3.14.1592(@parcel/watcher@2.5.0)(@types/node@20.17.10)(eslint@9.16.0(jiti@2.4.1))(ioredis@5.4.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.28.1)(stylelint@16.12.0(typescript@5.4.5))(terser@5.37.0)(typescript@5.4.5)(vite@5.4.11(@types/node@20.17.10)(terser@5.37.0))(vue-tsc@2.1.10(typescript@5.4.5)))(pinia@2.3.0(typescript@5.4.5)(vue@3.5.13(typescript@5.4.5)))(prettier@3.4.2)(rollup@4.28.1)(tailwindcss@3.4.17)(typescript@5.4.5)(unhead@1.11.14)(vite@5.4.11(@types/node@20.17.10)(terser@5.37.0))(vue-router@4.5.0(vue@3.5.13(typescript@5.4.5)))(vue@3.5.13(typescript@5.4.5))(webpack@5.97.1(esbuild@0.24.0))':
     dependencies:
       '@dargmuesli/nuxt-cookie-control': 8.4.18(magicast@0.3.5)(rollup@4.28.1)(webpack@5.97.1(esbuild@0.24.0))
       '@eslint/compat': 1.2.4(eslint@9.16.0(jiti@2.4.1))
@@ -6944,8 +6944,8 @@ snapshots:
       '@nuxtjs/seo': 2.0.2(@unhead/vue@1.11.14(vue@3.5.13(typescript@5.4.5)))(h3@1.13.0)(magicast@0.3.5)(rollup@4.28.1)(typescript@5.4.5)(unhead@1.11.14)(vite@5.4.11(@types/node@20.17.10)(terser@5.37.0))(vue@3.5.13(typescript@5.4.5))
       '@nuxtjs/tailwindcss': 6.12.2(magicast@0.3.5)(rollup@4.28.1)
       '@pinia/nuxt': 0.9.0(magicast@0.3.5)(pinia@2.3.0(typescript@5.4.5)(vue@3.5.13(typescript@5.4.5)))(rollup@4.28.1)
-      '@tailwindcss/forms': 0.5.9(tailwindcss@3.4.16)
-      '@tailwindcss/typography': 0.5.15(tailwindcss@3.4.16)
+      '@tailwindcss/forms': 0.5.9(tailwindcss@3.4.17)
+      '@tailwindcss/typography': 0.5.15(tailwindcss@3.4.17)
       '@types/lodash-es': 4.17.12
       '@urql/core': 5.1.0
       '@urql/vue': 1.4.2(@urql/core@5.1.0)(vue@3.5.13(typescript@5.4.5))
@@ -8008,8 +8008,8 @@ snapshots:
       pathe: 1.1.2
       postcss: 8.4.49
       postcss-nesting: 13.0.1(postcss@8.4.49)
-      tailwind-config-viewer: 2.0.4(tailwindcss@3.4.16)
-      tailwindcss: 3.4.16
+      tailwind-config-viewer: 2.0.4(tailwindcss@3.4.17)
+      tailwindcss: 3.4.17
       ufo: 1.5.4
       unctx: 2.4.0
     transitivePeerDependencies:
@@ -8502,18 +8502,18 @@ snapshots:
       - supports-color
       - typescript
 
-  '@tailwindcss/forms@0.5.9(tailwindcss@3.4.16)':
+  '@tailwindcss/forms@0.5.9(tailwindcss@3.4.17)':
     dependencies:
       mini-svg-data-uri: 1.4.4
-      tailwindcss: 3.4.16
+      tailwindcss: 3.4.17
 
-  '@tailwindcss/typography@0.5.15(tailwindcss@3.4.16)':
+  '@tailwindcss/typography@0.5.15(tailwindcss@3.4.17)':
     dependencies:
       lodash.castarray: 4.4.0
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       postcss-selector-parser: 6.0.10
-      tailwindcss: 3.4.16
+      tailwindcss: 3.4.17
 
   '@trysound/sax@0.2.0': {}
 
@@ -13355,7 +13355,7 @@ snapshots:
       string-width: 4.2.3
       strip-ansi: 6.0.1
 
-  tailwind-config-viewer@2.0.4(tailwindcss@3.4.16):
+  tailwind-config-viewer@2.0.4(tailwindcss@3.4.17):
     dependencies:
       '@koa/router': 12.0.2
       commander: 6.2.1
@@ -13365,11 +13365,11 @@ snapshots:
       open: 7.4.2
       portfinder: 1.0.32
       replace-in-file: 6.3.5
-      tailwindcss: 3.4.16
+      tailwindcss: 3.4.17
     transitivePeerDependencies:
       - supports-color
 
-  tailwindcss@3.4.16:
+  tailwindcss@3.4.17:
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
