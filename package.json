@@ -29,10 +29,5 @@
     "start:node": "pnpm --dir src run start:node",
     "start:static": "pnpm --dir src run start:static"
   },
-  "type": "module",
-  "pnpm": {
-    "overrides": {
-      "typescript": "5.4.5"
-    }
-  }
+  "type": "module"
 }
