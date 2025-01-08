@@ -65,15 +65,9 @@ importers:
       '@vuelidate/validators':
         specifier: 2.0.4
         version: 2.0.4(vue@3.5.13(typescript@5.7.3))
-      canvas:
-        specifier: 3.0.1
-        version: 3.0.1
       defu:
         specifier: 6.1.4
         version: 6.1.4
-      jsbarcode:
-        specifier: 3.11.6
-        version: 3.11.6
       jspdf:
         specifier: 2.5.2
         version: 2.5.2
@@ -2265,10 +2259,6 @@ packages:
   caniuse-lite@1.0.30001690:
     resolution: {integrity: sha512-5ExiE3qQN6oF8Clf8ifIDcMRCRE/dMGcETG/XGMD8/XiXm6HXQgQTh1yZYLXXpSOsEUlJm1Xr7kGULZTuGtP/w==}
 
-  canvas@3.0.1:
-    resolution: {integrity: sha512-PcpVF4f8RubAeN/jCQQ/UymDKzOiLmRPph8fOTzDnlsUihkO/AUlxuhaa7wGRc3vMcCbV1fzuvyu5cWZlIcn1w==}
-    engines: {node: ^18.12.0 || >= 20.9.0}
-
   canvg@3.0.10:
     resolution: {integrity: sha512-qwR2FRNO9NlzTeKIPIKpnTY6fqwuYSequ8Ru8c0YkYU7U0oW+hLUvWadLvAu1Rl72OMNiFhoLu4f8eUjQ7l/+Q==}
     engines: {node: '>=10.0.0'}
@@ -2718,10 +2708,6 @@ packages:
     peerDependenciesMeta:
       supports-color:
         optional: true
-
-  decompress-response@4.2.1:
-    resolution: {integrity: sha512-jOSne2qbyE+/r8G1VU+G/82LBs2Fs4LAsTiLSHOCOMZQl2OKZ6i8i4IyHemTe+/yIXOtTcRQMzPcgyhoFlqPkw==}
-    engines: {node: '>=8'}
 
   decompress-response@6.0.0:
     resolution: {integrity: sha512-aW35yZM6Bb/4oJlZncMH2LCoZtJXTRxES17vE3hoRiowU2kWHaJKFkSBDnDR+cm9J+9QhXmREyIfv0pji9ejCQ==}
@@ -3892,9 +3878,6 @@ packages:
     resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
     hasBin: true
 
-  jsbarcode@3.11.6:
-    resolution: {integrity: sha512-G5TKGyKY1zJo0ZQKFM1IIMfy0nF2rs92BLlCz+cU4/TazIc4ZH+X1GYeDRt7TKjrYqmPfTjwTBkU/QnQlsYiuA==}
-
   jsdoc-type-pratt-parser@4.1.0:
     resolution: {integrity: sha512-Hicd6JK5Njt2QB6XYFS7ok9e37O8AYk3jTcppG4YVQnYjOemymvTcmc7OWsmq/Qqj5TdRFO5/x/tIPmBeRtGHg==}
     engines: {node: '>=12.0.0'}
@@ -4243,10 +4226,6 @@ packages:
   mimic-function@5.0.1:
     resolution: {integrity: sha512-VP79XUPxV2CigYP3jWwAUFSku2aKqBH7uTAapFWCBqutsbmDo96KY5o8uh6U+/YSIn5OxJnXp73beVkpqMIGhA==}
     engines: {node: '>=18'}
-
-  mimic-response@2.1.0:
-    resolution: {integrity: sha512-wXqjST+SLt7R009ySCglWBCFpjUygmCIfD790/kVbiGmUgfYGuB14PiTd5DwVxSV4NcYHjzMkoj5LjQZwTQLEA==}
-    engines: {node: '>=8'}
 
   mimic-response@3.1.0:
     resolution: {integrity: sha512-z0yWI+4FDrrweS8Zmt4Ej5HdJmky15+L2e6Wgn3+iK5fWzb6T3fhNFq2+MeTRb064c6Wr4N/wv0DzQTjNzHNGQ==}
@@ -5531,9 +5510,6 @@ packages:
 
   simple-concat@1.0.1:
     resolution: {integrity: sha512-cSFtAPtRhljv69IK0hTVZQ+OfE9nePi/rtJmw5UjHeVyVroEqJXP1sFztKUy1qU+xvz3u/sfYJLa947b7nAN2Q==}
-
-  simple-get@3.1.1:
-    resolution: {integrity: sha512-CQ5LTKGfCpvE1K0n2us+kuMPbk/q0EKl82s4aheV9oXjFEz6W/Y7oQFVJuU6QG77hRT4Ghb5RURteF5vnWjupA==}
 
   simple-get@4.0.1:
     resolution: {integrity: sha512-brv7p5WgH0jmQJr1ZDDfKDOSeWWg+OVypG99A/5vYGPqJ6pxiaHLy8nxtFjBA7oMa01ebA9gfh1uMCFqOuXxvA==}
@@ -9269,6 +9245,7 @@ snapshots:
       buffer: 5.7.1
       inherits: 2.0.4
       readable-stream: 3.6.2
+    optional: true
 
   boolbase@1.0.0: {}
 
@@ -9304,6 +9281,7 @@ snapshots:
     dependencies:
       base64-js: 1.5.1
       ieee754: 1.2.1
+    optional: true
 
   buffer@6.0.3:
     dependencies:
@@ -9369,12 +9347,6 @@ snapshots:
       lodash.uniq: 4.5.0
 
   caniuse-lite@1.0.30001690: {}
-
-  canvas@3.0.1:
-    dependencies:
-      node-addon-api: 7.1.1
-      prebuild-install: 7.1.2
-      simple-get: 3.1.1
 
   canvg@3.0.10:
     dependencies:
@@ -9444,7 +9416,8 @@ snapshots:
     dependencies:
       readdirp: 4.0.2
 
-  chownr@1.1.4: {}
+  chownr@1.1.4:
+    optional: true
 
   chownr@2.0.0: {}
 
@@ -9834,13 +9807,10 @@ snapshots:
     optionalDependencies:
       supports-color: 9.4.0
 
-  decompress-response@4.2.1:
-    dependencies:
-      mimic-response: 2.1.0
-
   decompress-response@6.0.0:
     dependencies:
       mimic-response: 3.1.0
+    optional: true
 
   deep-equal@1.0.1: {}
 
@@ -9966,6 +9936,7 @@ snapshots:
   end-of-stream@1.4.4:
     dependencies:
       once: 1.4.0
+    optional: true
 
   enhanced-resolve@5.18.0:
     dependencies:
@@ -10384,7 +10355,8 @@ snapshots:
       strip-final-newline: 4.0.0
       yoctocolors: 2.1.1
 
-  expand-template@2.0.3: {}
+  expand-template@2.0.3:
+    optional: true
 
   externality@1.0.2:
     dependencies:
@@ -10506,7 +10478,8 @@ snapshots:
       inherits: 2.0.4
       readable-stream: 2.3.8
 
-  fs-constants@1.0.0: {}
+  fs-constants@1.0.0:
+    optional: true
 
   fs-extra@11.2.0:
     dependencies:
@@ -10616,7 +10589,8 @@ snapshots:
     dependencies:
       git-up: 8.0.0
 
-  github-from-package@0.0.0: {}
+  github-from-package@0.0.0:
+    optional: true
 
   glob-parent@5.1.2:
     dependencies:
@@ -11133,8 +11107,6 @@ snapshots:
     dependencies:
       argparse: 2.0.1
 
-  jsbarcode@3.11.6: {}
-
   jsdoc-type-pratt-parser@4.1.0: {}
 
   jsesc@0.5.0: {}
@@ -11501,9 +11473,8 @@ snapshots:
 
   mimic-function@5.0.1: {}
 
-  mimic-response@2.1.0: {}
-
-  mimic-response@3.1.0: {}
+  mimic-response@3.1.0:
+    optional: true
 
   min-indent@1.0.1: {}
 
@@ -11543,7 +11514,8 @@ snapshots:
 
   mitt@3.0.1: {}
 
-  mkdirp-classic@0.5.3: {}
+  mkdirp-classic@0.5.3:
+    optional: true
 
   mkdirp@0.5.6:
     dependencies:
@@ -11582,7 +11554,8 @@ snapshots:
 
   nanotar@0.1.1: {}
 
-  napi-build-utils@1.0.2: {}
+  napi-build-utils@1.0.2:
+    optional: true
 
   natural-compare@1.4.0: {}
 
@@ -11692,6 +11665,7 @@ snapshots:
   node-abi@3.71.0:
     dependencies:
       semver: 7.6.3
+    optional: true
 
   node-addon-api@6.1.0:
     optional: true
@@ -12588,6 +12562,7 @@ snapshots:
       simple-get: 4.0.1
       tar-fs: 2.1.1
       tunnel-agent: 0.6.0
+    optional: true
 
   prelude-ls@1.2.1: {}
 
@@ -12624,6 +12599,7 @@ snapshots:
     dependencies:
       end-of-stream: 1.4.4
       once: 1.4.0
+    optional: true
 
   punycode@2.3.1: {}
 
@@ -12706,6 +12682,7 @@ snapshots:
       inherits: 2.0.4
       string_decoder: 1.3.0
       util-deprecate: 1.0.2
+    optional: true
 
   readable-stream@4.7.0:
     dependencies:
@@ -13009,19 +12986,15 @@ snapshots:
       figures: 2.0.0
       pkg-conf: 2.1.0
 
-  simple-concat@1.0.1: {}
-
-  simple-get@3.1.1:
-    dependencies:
-      decompress-response: 4.2.1
-      once: 1.4.0
-      simple-concat: 1.0.1
+  simple-concat@1.0.1:
+    optional: true
 
   simple-get@4.0.1:
     dependencies:
       decompress-response: 6.0.0
       once: 1.4.0
       simple-concat: 1.0.1
+    optional: true
 
   simple-git@3.27.0:
     dependencies:
@@ -13412,6 +13385,7 @@ snapshots:
       mkdirp-classic: 0.5.3
       pump: 3.0.2
       tar-stream: 2.2.0
+    optional: true
 
   tar-fs@3.0.6:
     dependencies:
@@ -13429,6 +13403,7 @@ snapshots:
       fs-constants: 1.0.0
       inherits: 2.0.4
       readable-stream: 3.6.2
+    optional: true
 
   tar-stream@3.1.7:
     dependencies:
@@ -13549,6 +13524,7 @@ snapshots:
   tunnel-agent@0.6.0:
     dependencies:
       safe-buffer: 5.2.1
+    optional: true
 
   type-check@0.4.0:
     dependencies:
