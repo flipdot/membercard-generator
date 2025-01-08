@@ -18,7 +18,11 @@ export default defineNuxtConfig(
       },
       vite: {
         optimizeDeps: {
-          include: ['@vuelidate/core', '@vuelidate/validators'],
+          include: [
+            '@intlify/core-base',
+            '@vuelidate/core',
+            '@vuelidate/validators',
+          ],
         },
       },
     },
