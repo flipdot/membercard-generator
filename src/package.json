@@ -14,7 +14,7 @@
     "@vuelidate/validators": "2.0.4",
     "defu": "6.1.4",
     "jspdf": "2.5.2",
-    "nuxt": "3.15.3",
+    "nuxt": "3.15.4",
     "pinia": "2.3.1",
     "prettier-plugin-tailwindcss": "0.6.11",
     "stylelint": "16.14.1",
