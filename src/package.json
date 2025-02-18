@@ -6,7 +6,7 @@
   },
   "description": "Generate a member card as PDF 🪪",
   "devDependencies": {
-    "@dargmuesli/nuxt-vio": "16.0.5",
+    "@dargmuesli/nuxt-vio": "17.0.0",
     "@nuxt/devtools": "2.1.0",
     "@nuxtjs/i18n": "9.2.0",
     "@types/node": "20.17.19",
@@ -22,7 +22,7 @@
     "stylelint-config-recommended-vue": "1.6.0",
     "stylelint-config-standard": "37.0.0",
     "symbology": "4.0.1",
-    "tailwindcss": "3.4.17",
+    "tailwindcss": "4.0.6",
     "ufo": "1.5.4",
     "vue": "3.5.13",
     "vue-router": "4.5.0",
