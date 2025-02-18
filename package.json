@@ -11,12 +11,17 @@
     "conventional-changelog-conventionalcommits": "8.0.0",
     "husky": "9.1.7",
     "lint-staged": "15.4.3",
-    "semantic-release": "24.2.2"
+    "semantic-release": "24.2.3"
   },
   "engines": {
     "node": "20"
   },
-  "packageManager": "pnpm@10.4.0",
+  "packageManager": "pnpm@10.4.1",
+  "pnpm": {
+    "overrides": {
+      "vue-tsc": "2.2.0"
+    }
+  },
   "private": true,
   "scripts": {
     "build": "pnpm --dir src run build",
