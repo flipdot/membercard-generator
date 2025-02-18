@@ -6,6 +6,7 @@ import { SITE_NAME, STAGING_HOST } from '../utils/constants'
 export default defineNuxtConfig(
   defu(
     {
+      css: ['~/assets/css/member-card-generator.css'],
       extends: ['@dargmuesli/nuxt-vio'],
       runtimeConfig: {
         public: {
