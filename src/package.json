@@ -29,7 +29,7 @@
     "vue-tsc": "2.2.0"
   },
   "engines": {
-    "node": "20"
+    "node": "22"
   },
   "name": "@flipdot/member-card-generator",
   "private": true,
