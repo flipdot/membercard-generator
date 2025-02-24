@@ -28,9 +28,6 @@
     "onlyBuiltDependencies": [
       "symbology"
     ],
-    "overrides": {
-      "vue-tsc": "2.2.0"
-    },
     "patchedDependencies": {
       "nuxt": "patches/nuxt.patch"
     }
