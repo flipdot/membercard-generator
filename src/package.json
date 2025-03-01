@@ -9,7 +9,7 @@
     "@dargmuesli/nuxt-vio": "17.0.2",
     "@nuxt/devtools": "2.1.1",
     "@nuxtjs/i18n": "9.2.1",
-    "@types/node": "20.17.21",
+    "@types/node": "20.17.22",
     "@vuelidate/core": "2.0.3",
     "@vuelidate/validators": "2.0.4",
     "defu": "6.1.4",
@@ -26,7 +26,7 @@
     "ufo": "1.5.4",
     "vue": "3.5.13",
     "vue-router": "4.5.0",
-    "vue-tsc": "2.2.4"
+    "vue-tsc": "2.2.6"
   },
   "engines": {
     "node": "20"
