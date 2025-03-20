@@ -27,10 +27,7 @@
     ],
     "onlyBuiltDependencies": [
       "symbology"
-    ],
-    "patchedDependencies": {
-      "nuxt": "patches/nuxt.patch"
-    }
+    ]
   },
   "private": true,
   "scripts": {

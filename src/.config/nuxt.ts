@@ -1,13 +1,16 @@
-import { VIO_NUXT_BASE_CONFIG } from '@dargmuesli/nuxt-vio/utils/nuxt'
+import { VIO_NUXT_BASE_CONFIG } from '@dargmuesli/nuxt-vio/shared/utils/nuxt'
 import { defu } from 'defu'
 
-import { SITE_NAME, STAGING_HOST } from '../utils/constants'
+import { SITE_NAME, STAGING_HOST } from '../shared/utils/constants'
 
 export default defineNuxtConfig(
   defu(
     {
       css: ['~/assets/css/member-card-generator.css'],
       extends: ['@dargmuesli/nuxt-vio'],
+      future: {
+        compatibilityVersion: 4,
+      },
       runtimeConfig: {
         public: {
           flipdot: {
