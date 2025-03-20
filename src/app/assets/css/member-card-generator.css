@@ -1,5 +1,7 @@
 /* stylelint-disable at-rule-no-unknown */
-/* stylelint-disable plugin/no-unsupported-browser-features */
+/* stylelint-disable import-notation */
+
+@import '../../../node_modules/@dargmuesli/nuxt-vio/app/assets/css/vio.css';
 
 @layer theme {
   :root, :host {

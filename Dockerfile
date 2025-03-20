@@ -1,7 +1,7 @@
 #############
 # Create base image.
 
-FROM node:20.18.3 AS base-image
+FROM node:20.19.0 AS base-image
 
 # The `CI` environment variable must be set for pnpm to run in headless mode
 ENV CI=true
@@ -42,7 +42,6 @@ EXPOSE 3000
 FROM base-image AS prepare
 
 COPY ./pnpm-lock.yaml package.json ./
-COPY ./patches ./patches
 
 RUN pnpm fetch
 
