@@ -8,7 +8,7 @@
   "devDependencies": {
     "@dargmuesli/nuxt-vio": "18.2.3",
     "@nuxt/devtools": "2.4.0",
-    "@nuxtjs/i18n": "9.5.3",
+    "@nuxtjs/i18n": "9.5.4",
     "@types/node": "22.15.3",
     "@vuelidate/core": "2.0.3",
     "@vuelidate/validators": "2.0.4",
@@ -22,7 +22,7 @@
     "stylelint-config-recommended-vue": "1.6.0",
     "stylelint-config-standard": "38.0.0",
     "symbology": "4.0.2",
-    "tailwindcss": "4.1.4",
+    "tailwindcss": "4.1.5",
     "ufo": "1.6.1",
     "vue": "3.5.13",
     "vue-router": "4.5.1",
