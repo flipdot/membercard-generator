@@ -20,9 +20,11 @@
   "pnpm": {
     "ignoredBuiltDependencies": [
       "@parcel/watcher",
+      "@tailwindcss/oxide",
       "core-js",
       "esbuild",
       "sharp",
+      "unrs-resolver",
       "vue-demi"
     ],
     "onlyBuiltDependencies": [
