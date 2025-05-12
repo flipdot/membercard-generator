@@ -15,7 +15,7 @@
     "defu": "6.1.4",
     "eslint": "9.26.0",
     "jspdf": "3.0.1",
-    "nuxt": "3.17.2",
+    "nuxt": "3.17.3",
     "pinia": "3.0.2",
     "prettier-plugin-tailwindcss": "0.6.11",
     "stylelint": "16.19.1",
