@@ -7,7 +7,7 @@
   "description": "Generate a member card as PDF 🪪",
   "devDependencies": {
     "@dargmuesli/nuxt-vio": "18.3.1",
-    "@nuxt/devtools": "2.5.0",
+    "@nuxt/devtools": "2.6.0",
     "@nuxtjs/i18n": "9.5.6",
     "@types/node": "22.15.34",
     "@vuelidate/core": "2.0.3",
