@@ -49,7 +49,7 @@ importers:
     devDependencies:
       '@dargmuesli/nuxt-vio':
         specifier: 18.3.16
-        version: 18.3.16(1d3322aadd19cd2e742b32126b3741bd)
+        version: 18.3.16(0b12434f227881d5d6412683241e1044)
       '@nuxt/devtools':
         specifier: 2.6.5
         version: 2.6.5(vite@7.1.10(@types/node@22.18.12)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))(vue@3.5.22(typescript@5.9.3))
@@ -96,8 +96,8 @@ importers:
         specifier: 4.0.2
         version: 4.0.2(@mapbox/node-pre-gyp@2.0.0)
       tailwindcss:
-        specifier: 4.1.15
-        version: 4.1.15
+        specifier: 4.1.16
+        version: 4.1.16
       ufo:
         specifier: 1.6.1
         version: 1.6.1
@@ -6161,8 +6161,8 @@ packages:
   tailwindcss@4.1.14:
     resolution: {integrity: sha512-b7pCxjGO98LnxVkKjaZSDeNuljC4ueKUddjENJOADtubtdo8llTaJy7HwBMeLNSSo2N5QIAgklslK1+Ir8r6CA==}
 
-  tailwindcss@4.1.15:
-    resolution: {integrity: sha512-k2WLnWkYFkdpRv+Oby3EBXIyQC8/s1HOFMBUViwtAh6Z5uAozeUSMQlIsn/c6Q2iJzqG6aJT3wdPaRNj70iYxQ==}
+  tailwindcss@4.1.16:
+    resolution: {integrity: sha512-pONL5awpaQX4LN5eiv7moSiSPd/DLDzKVRJz8Q9PgzmAdd1R4307GQS2ZpfiN7ZmekdQrfhZZiSE5jkLR4WNaA==}
 
   tapable@2.3.0:
     resolution: {integrity: sha512-g9ljZiwki/LfxmQADO3dEY1CbpmXT5Hm2fJ+QaGKwSXUylMybePR7/67YW7jOrrvjEgL1Fmz5kzyAjWVWLlucg==}
@@ -7223,7 +7223,7 @@ snapshots:
       - magicast
       - webpack
 
-  '@dargmuesli/nuxt-vio@18.3.16(1d3322aadd19cd2e742b32126b3741bd)':
+  '@dargmuesli/nuxt-vio@18.3.16(0b12434f227881d5d6412683241e1044)':
     dependencies:
       '@dargmuesli/nuxt-cookie-control': 9.1.6(magicast@0.3.5)(webpack@5.102.1(esbuild@0.25.11))
       '@eslint/compat': 1.4.0(eslint@9.37.0(jiti@2.6.1))
@@ -7238,8 +7238,8 @@ snapshots:
       '@nuxtjs/i18n': 10.1.1(@vue/compiler-dom@3.5.22)(db0@0.3.4)(eslint@9.37.0(jiti@2.6.1))(ioredis@5.8.1)(magicast@0.3.5)(rollup@4.52.5)(vue@3.5.22(typescript@5.9.3))
       '@nuxtjs/seo': 3.2.2(@unhead/vue@2.0.19(vue@3.5.22(typescript@5.9.3)))(db0@0.3.4)(h3@1.15.4)(ioredis@5.8.1)(magicast@0.3.5)(rollup@4.52.5)(unhead@2.0.19)(unstorage@1.17.1(db0@0.3.4)(ioredis@5.8.1))(vite@7.1.10(@types/node@22.18.12)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))(vue@3.5.22(typescript@5.9.3))
       '@pinia/nuxt': 0.11.2(magicast@0.3.5)(pinia@3.0.3(typescript@5.9.3)(vue@3.5.22(typescript@5.9.3)))
-      '@tailwindcss/forms': 0.5.10(tailwindcss@4.1.15)
-      '@tailwindcss/typography': 0.5.19(tailwindcss@4.1.15)
+      '@tailwindcss/forms': 0.5.10(tailwindcss@4.1.16)
+      '@tailwindcss/typography': 0.5.19(tailwindcss@4.1.16)
       '@tailwindcss/vite': 4.1.14(vite@7.1.10(@types/node@22.18.12)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
       '@types/lodash-es': 4.17.12
       '@urql/core': 6.0.1
@@ -9076,10 +9076,10 @@ snapshots:
       estraverse: 5.3.0
       picomatch: 4.0.3
 
-  '@tailwindcss/forms@0.5.10(tailwindcss@4.1.15)':
+  '@tailwindcss/forms@0.5.10(tailwindcss@4.1.16)':
     dependencies:
       mini-svg-data-uri: 1.4.4
-      tailwindcss: 4.1.15
+      tailwindcss: 4.1.16
 
   '@tailwindcss/node@4.1.14':
     dependencies:
@@ -9145,10 +9145,10 @@ snapshots:
       '@tailwindcss/oxide-win32-arm64-msvc': 4.1.14
       '@tailwindcss/oxide-win32-x64-msvc': 4.1.14
 
-  '@tailwindcss/typography@0.5.19(tailwindcss@4.1.15)':
+  '@tailwindcss/typography@0.5.19(tailwindcss@4.1.16)':
     dependencies:
       postcss-selector-parser: 6.0.10
-      tailwindcss: 4.1.15
+      tailwindcss: 4.1.16
 
   '@tailwindcss/vite@4.1.14(vite@7.1.10(@types/node@22.18.12)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))':
     dependencies:
@@ -13841,7 +13841,7 @@ snapshots:
 
   tailwindcss@4.1.14: {}
 
-  tailwindcss@4.1.15: {}
+  tailwindcss@4.1.16: {}
 
   tapable@2.3.0: {}
 
