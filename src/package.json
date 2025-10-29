@@ -9,7 +9,7 @@
     "@dargmuesli/nuxt-vio": "18.3.16",
     "@nuxt/devtools": "2.7.0",
     "@nuxtjs/i18n": "10.1.2",
-    "@types/node": "22.18.12",
+    "@types/node": "22.18.13",
     "@vuelidate/core": "2.0.3",
     "@vuelidate/validators": "2.0.4",
     "defu": "6.1.4",
