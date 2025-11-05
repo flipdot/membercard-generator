@@ -1,7 +1,7 @@
 #############
 # Create base image.
 
-FROM node:22.21.1 AS base-image
+FROM node:24.11.0 AS base-image
 
 # The `CI` environment variable must be set for pnpm to run in headless mode
 ENV CI=true
