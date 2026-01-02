@@ -48,8 +48,8 @@ importers:
   src:
     devDependencies:
       '@dargmuesli/nuxt-vio':
-        specifier: 20.1.3
-        version: 20.1.3(fb2957e5c723c21831906c135d805978)
+        specifier: 20.1.4
+        version: 20.1.4(fb2957e5c723c21831906c135d805978)
       '@nuxt/devtools':
         specifier: 3.1.1
         version: 3.1.1(vite@7.3.0(@types/node@24.10.4)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(yaml@2.8.2))(vue@3.5.26(typescript@5.9.3))
@@ -404,8 +404,8 @@ packages:
     resolution: {integrity: sha512-6kwvqXTZfJ38Df/XVbiZKuOkGRZ9j5UH4/8IbJCKeqcvpE6pKdZOqC1s0DH8Qz6i0utqKhEHzkPcPpKaT7VOrQ==}
     engines: {node: '>=16'}
 
-  '@dargmuesli/nuxt-vio@20.1.3':
-    resolution: {integrity: sha512-E/DjZ4tElvi7sZamM6wbcOaO4x21ACEeRsrDivu5Ix+qac1IxV+mgabC2yrMkzYs1hHzANq1e1a/JUdf5KjTHA==}
+  '@dargmuesli/nuxt-vio@20.1.4':
+    resolution: {integrity: sha512-BYkao961/PiFLdaPb4PlpYUfeBNzQHISjr4iqaODL+79P5Sq9DLYIN//r/08LMhRgwMJO995kZqL5HbBEd+0mg==}
     engines: {node: '24'}
     peerDependencies:
       nuxt: ^4.1.0
@@ -4206,6 +4206,10 @@ packages:
     resolution: {integrity: sha512-c/c15i26VrJ4IRt5Z89DnIzCGDn9EcebibhAOjw5ibqEHsE1wLUgkPn9RDmNcUKyU87GeaL633nyJ+pplFR2ZQ==}
     engines: {node: '>=18'}
 
+  globals@17.0.0:
+    resolution: {integrity: sha512-gv5BeD2EssA793rlFWVPMMCqefTlpusw6/2TbAVMy0FzcG8wKJn4O+NqJ4+XWmmwrayJgw5TzrmWjFgmz1XPqw==}
+    engines: {node: '>=18'}
+
   globby@11.1.0:
     resolution: {integrity: sha512-jhIXaOzy1sb8IyocaruWSn1TjmnBVs8Ayhcy83rmxNJ8q2uWKCAj3CnJY+KpGSXCueAPc0i05kVvVKtP1t9S3g==}
     engines: {node: '>=10'}
@@ -7613,7 +7617,7 @@ snapshots:
       - magicast
       - webpack
 
-  '@dargmuesli/nuxt-vio@20.1.3(fb2957e5c723c21831906c135d805978)':
+  '@dargmuesli/nuxt-vio@20.1.4(fb2957e5c723c21831906c135d805978)':
     dependencies:
       '@dargmuesli/nuxt-cookie-control': 9.1.11(magicast@0.5.1)(webpack@5.104.1(esbuild@0.27.2))
       '@eslint/compat': 2.0.0(eslint@9.39.2(jiti@2.6.1))
@@ -7645,7 +7649,7 @@ snapshots:
       eslint-plugin-compat: 6.0.2(eslint@9.39.2(jiti@2.6.1))
       eslint-plugin-prettier: 5.5.4(@types/eslint@9.6.1)(eslint-config-prettier@10.1.8(eslint@9.39.2(jiti@2.6.1)))(eslint@9.39.2(jiti@2.6.1))(prettier@3.7.4)
       eslint-plugin-yml: 1.19.1(eslint@9.39.2(jiti@2.6.1))
-      globals: 16.5.0
+      globals: 17.0.0
       jiti: 2.6.1
       jose: 6.1.3
       lucide-vue-next: 0.562.0(vue@3.5.26(typescript@5.9.3))
@@ -11745,6 +11749,8 @@ snapshots:
   globals@15.15.0: {}
 
   globals@16.5.0: {}
+
+  globals@17.0.0: {}
 
   globby@11.1.0:
     dependencies:
