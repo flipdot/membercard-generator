@@ -20,7 +20,7 @@
     "prettier-plugin-tailwindcss": "0.7.2",
     "stylelint": "17.0.0",
     "stylelint-config-recommended-vue": "1.6.1",
-    "stylelint-config-standard": "39.0.1",
+    "stylelint-config-standard": "40.0.0",
     "symbology": "4.0.2",
     "tailwindcss": "4.1.18",
     "ufo": "1.6.3",
