@@ -19,6 +19,7 @@
   "packageManager": "pnpm@10.30.0",
   "pnpm": {
     "ignoredBuiltDependencies": [
+      "@dargmuesli/nuxt-vio",
       "@parcel/watcher",
       "@tailwindcss/oxide",
       "core-js",
