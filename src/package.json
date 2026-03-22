@@ -18,14 +18,14 @@
     "nuxt": "4.4.2",
     "pinia": "3.0.4",
     "prettier-plugin-tailwindcss": "0.7.2",
-    "stylelint": "17.4.0",
+    "stylelint": "17.5.0",
     "stylelint-config-recommended-vue": "1.6.1",
     "stylelint-config-standard": "40.0.0",
     "symbology": "4.0.2",
     "tailwindcss": "4.2.2",
     "ufo": "1.6.3",
     "vue": "3.5.30",
-    "vue-router": "5.0.3",
+    "vue-router": "5.0.4",
     "vue-tsc": "3.2.6"
   },
   "engines": {
