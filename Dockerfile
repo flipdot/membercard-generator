@@ -62,8 +62,8 @@ RUN pnpm --dir src run build:node
 
 # FROM prepare AS build-static
 
-# ARG SITE_URL=http://localhost:3002
-# ENV SITE_URL=${SITE_URL}
+# ARG NUXT_PUBLIC_I18N_BASE_URL=http://localhost:3002
+# ENV NUXT_PUBLIC_I18N_BASE_URL=${NUXT_PUBLIC_I18N_BASE_URL}
 
 # ENV NODE_ENV=production
 # RUN pnpm --dir src run build:static
@@ -113,8 +113,14 @@ RUN pnpm -r run lint
 
 # COPY ./docker-entrypoint.sh /usr/local/bin/
 
-# RUN groupadd -g $GID -o $UNAME \
-#     && useradd -m -l -u $UID -g $GID -o -s /bin/bash $UNAME
+# RUN groupadd -g $GROUP_ID -o $USER_NAME \
+#     && useradd -m -l -u $USER_ID -g $GROUP_ID -o -s /bin/bash $USER_NAME \
+#     && mkdir \
+#         /srv/.pnpm-store \
+#         /srv/app/node_modules \
+#     && chown $USER_ID:$GROUP_ID \
+#         /srv/.pnpm-store \
+#         /srv/app/node_modules
 
 # USER $UNAME
 
