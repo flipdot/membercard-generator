@@ -9,7 +9,6 @@ on:
       - alpha
       - beta
       - main
-      - master
       - renovate/**
 
 jobs:
@@ -29,7 +28,6 @@ jobs:
     secrets:
       PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
     with:
-      APT_PACKAGES: mkcert
       DRY_RUN: true
   build:
     name: Build
@@ -38,6 +36,8 @@ jobs:
     permissions:
       packages: write
     with:
+      BUILD_ADD_HOSTS: |
+        app.localhost=127.0.0.1
       TAG: ${{ needs.release_semantic_dry.outputs.new_release_version }}
   release_semantic:
     needs: build
@@ -48,5 +48,3 @@ jobs:
       id-token: write
     secrets:
       PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-    with:
-      APT_PACKAGES: mkcert
