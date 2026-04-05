@@ -48,8 +48,8 @@ importers:
   src:
     devDependencies:
       '@dargmuesli/nuxt-vio':
-        specifier: 21.0.1
-        version: 21.0.1(f6a89c9d44bad0bbcc381c7dbd5e2697)
+        specifier: 21.0.2
+        version: 21.0.2(f6a89c9d44bad0bbcc381c7dbd5e2697)
       '@nuxt/devtools':
         specifier: 3.2.4
         version: 3.2.4(vite@7.3.1(@types/node@24.12.0)(jiti@2.6.1)(lightningcss@1.32.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.5.31(typescript@6.0.2))
@@ -459,8 +459,8 @@ packages:
     resolution: {integrity: sha512-Tk72nUPdr/ptOZW6Q8hzyOtn+uoAakyU/Pv8GVHHOHQ39HeiEzlEQtcFGZS9+6eY+8CmB9C6mtVovSN1Faq8IA==}
     engines: {node: '>=16'}
 
-  '@dargmuesli/nuxt-vio@21.0.1':
-    resolution: {integrity: sha512-sO3OKL77AlVHzI8ELLKTC58pkEncXoN84Wu76xMlCVrG4HlKnqrsIhrPopq040SW6jfnrw4Dg3au2vP3b1Hl1Q==}
+  '@dargmuesli/nuxt-vio@21.0.2':
+    resolution: {integrity: sha512-fLUDAEDLOU6bYQ3kP6TZ2XAtz5+jE0/3CyVIhKM2bpOpz0r3IjrpyP1J3QHvC6dRx4/UITi0fOJg0EtyEOXWuQ==}
     engines: {node: '24'}
     peerDependencies:
       nuxt: ^4.1.0
@@ -8996,7 +8996,7 @@ snapshots:
       - magicast
       - webpack
 
-  '@dargmuesli/nuxt-vio@21.0.1(f6a89c9d44bad0bbcc381c7dbd5e2697)':
+  '@dargmuesli/nuxt-vio@21.0.2(f6a89c9d44bad0bbcc381c7dbd5e2697)':
     dependencies:
       '@dargmuesli/nuxt-cookie-control': 9.1.19(magicast@0.5.2)(webpack@5.105.4(esbuild@0.27.7))
       '@eslint/compat': 2.0.3(eslint@10.1.0(jiti@2.6.1))
