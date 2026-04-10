@@ -12,7 +12,7 @@
     "@types/node": "24.12.2",
     "@vuelidate/core": "2.0.3",
     "@vuelidate/validators": "2.0.4",
-    "defu": "6.1.6",
+    "defu": "6.1.7",
     "eslint": "10.2.0",
     "jspdf": "4.2.1",
     "nuxt": "4.4.2",
