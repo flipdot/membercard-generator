@@ -1,18 +1,4 @@
 {
-  "devDependencies": {
-    "@commitlint/cli": "20.5.3",
-    "@commitlint/config-conventional": "20.5.3",
-    "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/commit-analyzer": "13.0.1",
-    "@semantic-release/git": "10.0.1",
-    "@semantic-release/github": "12.0.6",
-    "@semantic-release/npm": "13.1.5",
-    "@semantic-release/release-notes-generator": "14.1.0",
-    "conventional-changelog-conventionalcommits": "9.3.1",
-    "husky": "9.1.7",
-    "lint-staged": "16.4.0",
-    "semantic-release": "25.0.3"
-  },
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
@@ -29,7 +15,6 @@
     "build:static": "pnpm --dir src run build:static",
     "dev": "pnpm --dir src run dev",
     "generate": "pnpm --dir src run generate",
-    "prepare": "husky",
     "start:dev": "pnpm --dir src run start:dev",
     "start:node": "pnpm --dir src run start:node",
     "start:static": "pnpm --dir src run start:static"
