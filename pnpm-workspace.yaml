@@ -1,2 +1,11 @@
+allowBuilds:
+  '@dargmuesli/nuxt-vio': false
+  '@parcel/watcher': false
+  core-js: false
+  esbuild: false
+  sharp: false
+  symbology: true
+  unrs-resolver: false
+  vue-demi: false
 packages:
   - src
